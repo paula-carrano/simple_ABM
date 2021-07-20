@@ -1,0 +1,73 @@
+body {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 15px;  
+    color: #566787;
+    background: #f5f5f5;
+    max-width: 100%;
+}
+
+/*titulo*/
+
+.table-size {
+    background: #fff;
+    padding: 20px 25px;
+    margin: 2.1% 0 0% 0%;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+.table-title {
+    padding-bottom: 15px;
+    background: #435d7d;
+    color: #fff;
+    padding: 16px 30px;
+    margin: -20px -25px 10px;
+    border-radius: 3px 3px 0 0;
+}
+.table-title h2 {
+    margin: 5px 0 0;
+    font-size: 24px;
+}
+
+/*Boton ADD EMPLOYEE*/
+.btn{
+    text-align: center;
+}
+.btn-success {
+    background-color: #5cb85c;
+}
+.table-title .btn {
+    float: right;
+    margin-top: 2px;
+    font-size: 13px;
+}
+
+.table-title .btn span {
+    float: left;
+    margin-top: 2px;
+}
+
+.table-title .btn i {
+    float: left;
+    font-size: 21px;
+    margin-right: 5px;
+}
+
+/*filtro*/
+#filter{
+    margin-bottom: 15px;
+}
+
+/*modal*/
+.modal{
+    color: #566787;
+    font-size: 13px;
+}
+
+.modal .modal-footer{
+    background: #ecf0f1;
+}
+
+
+/* modal mostrar */
+.nomostrar {
+    display: none;
+  }
