@@ -1,4 +1,6 @@
-Practica del curso en ADA disponible:[click aquí](https://griseldadelio.github.io/trabajoPracticoJs/)
+Practica del curso en ADA, donde encontrarás una ABM de empleados con uso de Bootstrap y JS. Los datos son obtenidos de MOCK API
+
+DEMO:https://simpleabm.netlify.app/
 
 #FILE SERVICES.JS
 
