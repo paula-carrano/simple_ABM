@@ -1,5 +1,6 @@
-# TP JavaScript: ABM (alta-baja-modificación) de Personas
+# ABM (alta-baja-modificación) de Personas
 
+Colab with @griseldadelio
 ## ⚙️ **Ejercicio**
 
 - Se debe crear una aplicación web con los siguientes requerimientos:
