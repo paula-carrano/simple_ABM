@@ -1,10 +1,52 @@
-Practica del curso en ADA, donde encontrarás una ABM de empleados con uso de Bootstrap y JS. Los datos son obtenidos de MOCK API
+# ABM Empleados
 
-DEMO:https://simpleabm.netlify.app/
+**ABM Empleados** es una aplicación web para la gestión de empleados, desarrollada utilizando Bootstrap y JavaScript. Los datos de los empleados se obtienen de una API simulada (MOCK API).
 
-#FILE SERVICES.JS
+## Enlace a la Aplicación
 
-    En el file services.js van a encontrar las funciones que hacen los llamados a la API: obtener datos, registrar empleado, editar los dato, eliminar en la row y eliminar todos los usuarios.
+Puedes probar la aplicación en [Netlify](https://simpleabm.netlify.app/).
 
-#FILE CORE.JS
-    En el file core.js van a encontrar las funciones de validaciones, la construcción del objeto empleado, construcción de la tabla, filtro de empleados, modal (para mostrar en edit y delete empleado), botón de eliminación masiva y selección de todos los checkbox desde el header de la tabla.
+## Estructura del Proyecto
+
+### Archivo `services.js`
+
+En el archivo `services.js`, encontrarás las funciones responsables de realizar los siguientes llamados a la API:
+
+- Obtener datos de empleados
+- Registrar un nuevo empleado
+- Editar los datos de un empleado
+- Eliminar un empleado específico (fila)
+- Eliminar todos los empleados
+
+### Archivo `core.js`
+
+En el archivo `core.js`, se incluyen funciones para:
+
+- Validaciones de datos
+- Construcción del objeto empleado
+- Creación y gestión de la tabla de empleados
+- Filtro de empleados en la tabla
+- Gestión de modales para edición y eliminación de empleados
+- Implementación de la eliminación masiva de empleados
+- Selección y deselección de todos los checkboxes desde el encabezado de la tabla
+
+## Instalación y Ejecución en Desarrollo
+
+Para ejecutar el proyecto en tu entorno local, sigue estos pasos:
+
+1. **Clona el Repositorio**
+
+   ```
+   git clone https://github.com/tu-usuario/abm-empleados.git
+   cd abm-empleados
+   ```
+2. **Instala las Dependencias**
+    ```
+    npm install
+    ```
+
+4. **Ejecuta el Servidor de Desarrollo**
+   ```
+   npm start
+   ```
+
